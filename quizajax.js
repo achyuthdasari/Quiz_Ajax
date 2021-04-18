@@ -1,12 +1,26 @@
 var para = document.getElementById("ques");
-var optns = document.querySelectorAll("text")
 var btn = document.getElementById("next"); 
-console.log(optns)
+// console.log(optns)
 var qno=1
+var start=0
 var scorecnt=0
 btn.addEventListener("click",function(){
+    if (start==0){
+        document.querySelector("#details").remove()
+        start+=1
+        var strin="<input class='rad' id=answer  name=grp type=radio ><text class= option> </text> </input><br><br><input class='rad' id=q1_opt2  name=grp type=radio ><text class= option> </text></input><br><br><input class='rad' id=q1_opt3  name=grp type=radio ><text class= option> </text></input> <br><br><br>"
+        document.getElementById("cont").innerHTML=strin
+    }
     if (qno==5)
         document.getElementById("next").innerHTML="Submit"
+    if (qno==6){  
+        document.getElementById("ques").innerHTML=""   
+        document.getElementById("cont").innerHTML="" 
+        document.getElementById("next").remove();
+        document.getElementById("result").innerHTML="<h2 style='color:azure'>You have successfully completed the quiz</h2><h2> Your score is </h2><p id=result>"+ scorecnt+"</p>"
+    }
+    
+
     var myrequest = new XMLHttpRequest();
     myrequest.open('GET','https://achyuthdasari.github.io/Quiz_Ajax/Questions.json')
     myrequest.onload = function(){
@@ -17,10 +31,11 @@ btn.addEventListener("click",function(){
         addhtml(data[qno-1])
         qno++;
     };
-myrequest.send();   
+    myrequest.send();   
 })
 
 function addhtml(dat){
+    var optns = document.querySelectorAll("text")
     var quest = qno +"."+ dat.Question
     para.innerhtml= dat.Question
     var i=0
