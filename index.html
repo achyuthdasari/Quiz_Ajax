@@ -1,14 +1,22 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Question 5 </title>
+        <title>Index </title>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <h1>Quiz</h1>
         <hr>
-        <button onclick="display()">next</button>
         <br>
+        <div id="ques-area">
+            <p id=ques></p>
+            <container id="cont">
+                <input id=answer  name=grp type=radio ><text class= option> </text> </input><br><br>
+                <input id=q1_opt2  name=grp type=radio ><text class= option> </text></input><br><br>
+                <input id=q1_opt3  name=grp type=radio ><text class= option> </text></input> <br><br><br>
+            </container>
+        </div>
+        <button id=next>next</button>
         <script src="quizajax.js"></script>
     </body>
 </html> 

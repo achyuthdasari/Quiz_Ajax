@@ -1,12 +1,24 @@
 [
 
 { 
-"Question":"Who is cm of Telangana",
-"options":["kcr","jagan","yaduurappa"]
+"Question":"Who is cm of Karnataka",
+"options":[" Yaduurappa"," KCR"," Jagan",]
 },
 
-{"Question":"what is the capital of France",
-"options":["paris","Amsterdam","Rome"]
+{"Question":"What is the capital of France",
+"options":[" Paris","Amsterdam","Rome"]
+},
+
+{"Question":"Who is the current CM of Punjab",
+    "options":[" Amareender Singh"," Surjeet Singh"," P. Vijayan "]
+},
+
+{"Question":"Who discovered pencilin",
+    "options":[" Benjamin Franklin  "," Thomas A. Edison"," Alexander Fleming"]
+},
+
+{"Question":"Which country won 2018 FIFA World Cup",
+    "options":[" France  "," Russia"," Spain"]
 }
 
 ]
