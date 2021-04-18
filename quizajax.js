@@ -13,6 +13,7 @@ btn.addEventListener("click",function(){
         var data = JSON.parse(myrequest.responseText);
         // console.log(data)
         // console.log("Hello")
+        console.log(qno);
         addhtml(data[qno-1])
         qno++;
     };

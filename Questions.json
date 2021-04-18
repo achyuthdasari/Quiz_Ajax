@@ -2,15 +2,17 @@
 
 { 
 "Question":"Who is cm of Karnataka",
-"options":[" Yaduurappa"," KCR"," Jagan",]
+"options":[" Yaduurappa"," KCR"," Jagan"]
 },
 
-{"Question":"What is the capital of France",
+{
+"Question":"What is the capital of France",
 "options":[" Paris","Amsterdam","Rome"]
 },
 
-{"Question":"Who is the current CM of Punjab",
-    "options":[" Amareender Singh"," Surjeet Singh"," P. Vijayan "]
+{
+"Question":"Who is the current CM of Punjab",
+    "options":[" Amareender Singh"," Surjeet Singh"," P. Vijayan"]
 },
 
 {"Question":"Who discovered pencilin",
