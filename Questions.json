@@ -1,15 +1,16 @@
 [
 
-{ 
-"Question":"Who is cm of Karnataka",
-"options":["Yaduurappa"," KCR"," Jagan"],
-"answer":"Yaduurappa"
+{
+    "Question":"What is the capital of France",
+    "options":[" Amsterdam","Paris"," Rome"],
+    "answer" :"Paris"
 },
 
-{
-"Question":"What is the capital of France",
-"options":[" Amsterdam","Paris"," Rome"],
-"answer" :"Paris"
+
+{ 
+"Question":"Who is cm of Karnataka",
+"options": ["Yaduurappa"," KCR"," Jagan"],
+"answer":"Yaduurappa"
 },
 
 {

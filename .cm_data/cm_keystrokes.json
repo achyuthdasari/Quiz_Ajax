@@ -29431,6 +29431,90 @@
             "keyStrokeTimeStamp": "Tue Apr 20 2021 00:36:10",
             "keyStrokeInfo": "",
             "position": "12,12"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Apr 20 2021 00:37:14",
+            "keyStrokeInfo": " ",
+            "position": "5,11"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 4,
+            "keyStrokeTimeStamp": "Tue Apr 20 2021 00:37:48",
+            "keyStrokeInfo": "",
+            "position": "9,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Tue Apr 20 2021 00:37:50",
+            "keyStrokeInfo": "",
+            "position": "8,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Tue Apr 20 2021 00:37:50",
+            "keyStrokeInfo": "",
+            "position": "7,3"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Apr 20 2021 00:37:53",
+            "keyStrokeInfo": "\r\n    ",
+            "position": "2,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Apr 20 2021 00:37:54",
+            "keyStrokeInfo": "",
+            "position": "3,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 5,
+            "keyStrokeTimeStamp": "Tue Apr 20 2021 00:37:55",
+            "keyStrokeInfo": "{\r\n\"Question\":\"What is the capital of France\",\r\n\"options\":[\" Amsterdam\",\"Paris\",\" Rome\"],\r\n\"answer\" :\"Paris\"\r\n},",
+            "position": "3,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Tue Apr 20 2021 00:37:55",
+            "keyStrokeInfo": "    ",
+            "position": "7,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Tue Apr 20 2021 00:37:59",
+            "keyStrokeInfo": "",
+            "position": "7,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Apr 20 2021 00:38:00",
+            "keyStrokeInfo": "\r\n    ",
+            "position": "7,7"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Apr 20 2021 00:38:02",
+            "keyStrokeInfo": "",
+            "position": "7,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Apr 20 2021 00:38:04",
+            "keyStrokeInfo": "\r\n",
+            "position": "7,3"
         }
     ],
     "style.css": [
