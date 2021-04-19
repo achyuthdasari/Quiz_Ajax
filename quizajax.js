@@ -65,11 +65,26 @@ function score(data){
     var buttons = document.querySelectorAll("input");
     var texts = document.querySelectorAll("text");
     var cn=0;
-    console.log(buttons)
+    // console.log(buttons)
     for(var butn of buttons){
-        console.log(data)
+        console.log(data.answer);
+        console.log("print" +texts[cn].innerHTML);
+
+        // var sbb= "  abcd  "
+        // console.log(sbb.trim());
         console.log(texts[cn].innerHTML)
-        if (butn.id=="answer" && butn.checked==true){
+        
+
+        console.log(texts[cn].innerhtml == data.answer);
+        var a = texts[cn].innerhtml
+        var b = String(data.answer).trim()
+
+        console.log(typeof(a))
+
+        console.log("a is "+a);
+        console.log("b is "+b);
+
+        if ((a==b) && butn.checked==true){
             // console.log("exec");
             scorecnt++;
             // localStorage.setItem(document.title,"correct")
