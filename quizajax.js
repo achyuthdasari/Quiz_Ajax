@@ -67,7 +67,7 @@ function score(data){
     var cn=0;
     console.log(buttons)
     for(var butn of buttons){
-        console.log(data.answer);
+        console.log(data);
         console.log(texts[cn].innerHTML);
 
         console.log(texts[cn].innerhtml == data.answer);
