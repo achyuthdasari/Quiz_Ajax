@@ -5,6 +5,12 @@ var qno=1
 var start=0
 var scorecnt=0
 btn.addEventListener("click",function(){
+    if (start!=0){
+        var radbtns = document.querySelectorAll("rad");
+        for (var rd of radbtns){
+            rd.style.disable="Always"
+        }
+    }
     document.getElementById("next").innerHTML="Next"
 
     if (start==0){
@@ -49,17 +55,20 @@ function addhtml(dat){
         i++;
     }
     para.innerHTML=quest;
-    score();
+    score(dat);
     // para.insertAdjacentHTML('beforeend',quest)
 
 }
 
 
-function score(){
-    var buttons = document.querySelectorAll("input")
+function score(data){
+    var buttons = document.querySelectorAll("input");
+    var texts = document.querySelectorAll("text");
+    var cn=0;
     console.log(buttons)
     for(var butn of buttons){
-        console.log(butn.id)
+        console.log(data)
+        console.log(texts[cn].innerHTML)
         if (butn.id=="answer" && butn.checked==true){
             // console.log("exec");
             scorecnt++;
@@ -68,6 +77,7 @@ function score(){
             console.log("=======")
             // document.getElementById("result").innerHTML = (localStorage.length - 2);
         }
+        cn++
     }   
 }
 
