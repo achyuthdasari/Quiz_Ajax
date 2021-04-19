@@ -2,25 +2,32 @@
 
 { 
 "Question":"Who is cm of Karnataka",
-"options":[" Yaduurappa"," KCR"," Jagan"]
+"options":[" Yaduurappa"," KCR"," Jagan"],
+"answer" :" Yaduurappa"
 },
 
 {
 "Question":"What is the capital of France",
-"options":[" Paris","Amsterdam","Rome"]
+"options":[" Amsterdam"," Paris"," Rome"],
+"answer" :" Paris"
 },
 
 {
 "Question":"Who is the current CM of Punjab",
-    "options":[" Amareender Singh"," Surjeet Singh"," P. Vijayan"]
+"options":[" Amareender Singh"," Surjeet Singh"," P. Vijayan"],
+"answer" :" Amareender Singh"
 },
 
-{"Question":"Who discovered pencilin",
-    "options":[" Benjamin Franklin  "," Thomas A. Edison"," Alexander Fleming"]
+{
+"Question":"Who discovered pencilin",
+"options":[" Benjamin Franklin"," Thomas A. Edison"," Alexander Fleming"],
+"answer" :" Alexander Fleming"
 },
 
-{"Question":"Which country won 2018 FIFA World Cup",
-    "options":[" France  "," Russia"," Spain"]
+{
+"Question":"Which country won 2018 FIFA World Cup",
+"options":[" France"," Russia"," Spain"],
+"answer":" France"
 }
 
 ]
