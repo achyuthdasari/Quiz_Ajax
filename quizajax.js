@@ -74,18 +74,18 @@ function score(data){
         // console.log(sbb.trim());
         console.log(texts[cn].innerHTML)
         
+        // console.log(texts[cn].innerhtml == data.answer);
+        // var a = texts[cn].innerhtml
+        // var b = String(data.answer).trim()
 
-        console.log(texts[cn].innerhtml == data.answer);
-        var a = texts[cn].innerhtml
-        var b = String(data.answer).trim()
+        // console.log(typeof(a))
 
-        console.log(typeof(a))
+        // console.log("a is "+a);
+        // console.log("b is "+b);
 
-        console.log("a is "+a);
-        console.log("b is "+b);
-
-        if ((a==b) && butn.checked==true){
+        if (butn.checked==true){
             // console.log("exec");
+            data.answer.
             scorecnt++;
             // localStorage.setItem(document.title,"correct")
             console.log(scorecnt)

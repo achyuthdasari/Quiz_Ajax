@@ -2,7 +2,8 @@
 
 { 
 "Question":"Who is cm of Karnataka",
-"options":{" Yaduurappa":"yes"," KCR":"no"," Jagan":"no"}
+"options":[" Yaduurappa"," KCR"," Jagan"],
+"answer":{" Yaduurappa":"yes"," KCR":"no"," Jagan":"no"}
 },
 
 {
