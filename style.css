@@ -43,6 +43,13 @@ button{
     background-color: #e22706;   
 }
 
+#prev{
+    font-family: sans-serif;
+    font-size: 30px;
+    color: rgb(230, 230, 241);
+    background-color: #e22706;   
+}
+
 a{
     color: rgb(230, 230, 241);
     text-decoration: none;

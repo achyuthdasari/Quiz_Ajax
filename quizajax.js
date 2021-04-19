@@ -5,8 +5,12 @@ var qno=1
 var start=0
 var scorecnt=0
 btn.addEventListener("click",function(){
+    document.getElementById("next").innerHTML="Next"
+
     if (start==0){
         document.querySelector("#details").remove()
+        var strin1 ="<button id=prev>Prev</button> <button id=next>Next</button>";
+        // document.getElementById("buttons").appendChild("<button id=prev>Prev</button>")
         start+=1
         var strin="<input class='rad' id=answer  name=grp type=radio ><text class= option> </text> </input><br><br><input class='rad' id=q1_opt2  name=grp type=radio ><text class= option> </text></input><br><br><input class='rad' id=q1_opt3  name=grp type=radio ><text class= option> </text></input> <br><br><br>"
         document.getElementById("cont").innerHTML=strin
