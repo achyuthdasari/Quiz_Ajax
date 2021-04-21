@@ -4,22 +4,25 @@ var btn = document.getElementById("next");
 var qno=1
 var start=0
 var scorecnt=0
+var id1="answer"
+var id2="opn"
+var id3="opn"
+
 btn.addEventListener("click",function(){
-    if (start!=0){
-        var radbtns = document.querySelectorAll("rad");
-        for (var rd of radbtns){
-            rd.style.disable="Always"
-        }
-    }
+
     document.getElementById("next").innerHTML="Next"
+    // adddetails()
+    
 
     if (start==0){
+        adddetails()
         document.querySelector("#details").remove()
         var strin1 ="<button id=prev>Prev</button> <button id=next>Next</button>";
         // document.getElementById("buttons").appendChild("<button id=prev>Prev</button>")
         start+=1
-        var strin="<input class='rad' id=answer  name=grp type=radio ><text class= option> </text> </input><br><br><input class='rad' id=q1_opt2  name=grp type=radio ><text class= option> </text></input><br><br><input class='rad' id=q1_opt3  name=grp type=radio ><text class= option> </text></input> <br><br><br>"
+        var strin="<input class='rad' id= "+id1+ " name=grp type=radio ><text class= option> </text> </input><br><br><input class='rad' id= "+id2+ "   name=grp type=radio ><text class= option> </text></input><br><br><input class='rad' id= "+id3+ "  name=grp type=radio ><text class= option> </text></input> <br><br><br>"
         document.getElementById("cont").innerHTML=strin
+        
     }
     if (qno==5)
         document.getElementById("next").innerHTML="Submit"
@@ -45,6 +48,22 @@ btn.addEventListener("click",function(){
 })
 
 function addhtml(dat){
+    console.log(dat.answer)
+    if(dat.answer=="1"){
+        id1="answer"
+        id2="opn"
+        id2="opn"
+    }
+    if(dat.answer=="2"){
+        id1="opn"
+        id2="answer"
+        id3="opn"
+    }
+    if(dat.answer=="3"){
+        id1="opn"
+        id2="opn"
+        id3="answer"
+    }
     var optns = document.querySelectorAll("text")
     var quest = qno +"."+ dat.Question
     para.innerhtml= dat.Question
@@ -55,23 +74,19 @@ function addhtml(dat){
         i++;
     }
     para.innerHTML=quest;
-    score(dat);
+    score();
+    uncheck() ;
     // para.insertAdjacentHTML('beforeend',quest)
 
 }
 
 
-function score(data){
+function score(){
     var buttons = document.querySelectorAll("input");
-    var texts = document.querySelectorAll("text");
-    var cn=0;
     console.log(buttons)
     for(var butn of buttons){
-        console.log(data);
-        console.log(texts[cn].innerHTML);
-
-        console.log(texts[cn].innerhtml == data.answer);
-        if (String(texts[cn].innerhtml) === String(data.answer) && butn.checked==true ){
+        // console.log(data);
+        if (butn.id =='answer' && butn.checked==true ){
             // console.log("exec");
             scorecnt++;
             // localStorage.setItem(document.title,"correct")
@@ -79,8 +94,26 @@ function score(data){
             console.log("=======")
             // document.getElementById("result").innerHTML = (localStorage.length - 2);
         }
-        cn++
     }   
+}
+
+function uncheck() {
+    var radbtns = document.querySelectorAll(".rad");
+    for (var rd of radbtns){
+        rd.checked = false
+    }
+}
+
+function adddetails(){
+    var x = document.getElementById("nam").value;
+    var y = document.getElementById("rol").value;
+    // console.log(x)
+    // console.log(y)
+    if (x=="")
+        x="Guest"
+    if (y=="")
+        y="0000"
+    document.getElementById("per_det").innerHTML= "Hello,  " + x + " - " + y
 }
 
 
