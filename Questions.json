@@ -2,11 +2,11 @@
 
 {
 "Question":"What is the capital of France",
-"options":[" Amsterdam","Paris"," Rome"],
+"options":[" Amsterdam"," Paris"," Rome"],
 "answer" :2
 },
 
-{ 
+{   
 "Question":"Who is CM of Karnataka",
 "options": [" KCR"," Jagan"," Yadiyurappa"],
 "answer":3

@@ -37724,6 +37724,41 @@
             "keyStrokeTimeStamp": "Wed Apr 21 2021 12:58:03",
             "keyStrokeInfo": "",
             "position": "101,9"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Apr 21 2021 13:00:46",
+            "keyStrokeInfo": "// ",
+            "position": "13,5"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Apr 21 2021 13:01:55",
+            "keyStrokeInfo": "// ",
+            "position": "90,9"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Apr 21 2021 13:02:34",
+            "keyStrokeInfo": "// ",
+            "position": "52,9"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Apr 21 2021 13:02:40",
+            "keyStrokeInfo": "// ",
+            "position": "60,5"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Apr 21 2021 13:03:24",
+            "keyStrokeInfo": "// ",
+            "position": "87,5"
         }
     ],
     "Questions.json": [
@@ -40946,6 +40981,20 @@
             "keyStrokeTimeStamp": "Wed Apr 21 2021 12:59:32",
             "keyStrokeInfo": "2",
             "position": "6,11"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Apr 21 2021 13:03:48",
+            "keyStrokeInfo": " ",
+            "position": "5,26"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Apr 21 2021 13:03:58",
+            "keyStrokeInfo": "  ",
+            "position": "9,3"
         }
     ],
     "style.css": [

@@ -10,7 +10,7 @@ var scorecnt=0
 
 btn.addEventListener("click",function(){
     
-    console.log(document.getElementById("ques-area").innerHTML)
+    // console.log(document.getElementById("ques-area").innerHTML)
     score();
     uncheck();
 
@@ -49,7 +49,7 @@ btn.addEventListener("click",function(){
         var data = JSON.parse(myrequest.responseText);
         // console.log(data)
         // console.log("Hello")
-        console.log(qno);
+        // console.log(qno);
         addhtml(data[qno-1])
         qno++;
     };
@@ -57,7 +57,7 @@ btn.addEventListener("click",function(){
 })
 
 function addhtml(dat){
-    console.log(dat.answer)
+    // console.log(dat.answer)
     if(dat.answer=="1"){
         document.getElementById('opn1').id = 'answer';
     }
@@ -84,11 +84,11 @@ function addhtml(dat){
 
 function score(){
     var buttons = document.querySelectorAll("input");
-    console.log(buttons)
+    // console.log(buttons)
     for(var butn of buttons){
         // console.log(data);
-        console.log(butn.id);
-        console.log(butn.checked)
+        // console.log(butn.id);
+        // console.log(butn.checked)
         if (butn.id=="answer"){
             if(butn.checked==true){
                 scorecnt++;
